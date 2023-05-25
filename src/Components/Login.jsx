@@ -63,7 +63,9 @@ export function LoginCard() {
               Lost Password?
             </a>
           </div>
-          <button className="btn bg-primary w-full">Login</button>
+          <button className="btn bg-primary w-full text-white normal-case">
+            Login
+          </button>
           <div class="text-sm font-medium text-gray-500 dark:text-gray-300">
             Not registered?{" "}
             <a href="#" class="text-blue-700 hover:underline text-primary">
