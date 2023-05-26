@@ -59,10 +59,7 @@ export function LoginCard() {
                 Remember me
               </label>
             </div>
-            <a
-              href="#"
-              class="ml-auto text-sm text-blue-700 hover:underline text-primary"
-            >
+            <a href="#" class="ml-auto text-sm  hover:underline text-primary">
               Lost Password?
             </a>
           </div>
@@ -71,7 +68,7 @@ export function LoginCard() {
           </button>
           <div class="text-sm font-medium text-gray-500 dark:text-gray-300">
             Not registered?{" "}
-            <a href="#" class="text-blue-700 hover:underline text-primary">
+            <a href="#" class=" hover:underline text-primary">
               Create account
             </a>
           </div>
