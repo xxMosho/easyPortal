@@ -4,7 +4,7 @@ import Navbar from "@/Components/Navbar"
 export default function Home() {
   return (
     <>
-      <div className="bg-gradient-to-tr from-base-100 to-primary h-screen">
+      <div className="bg-gradient-to-t from-base-100 to-white via-primary h-screen">
         <center>
           <br></br>
           <Navbar />
