@@ -1,7 +1,10 @@
 export function LoginCard() {
   return (
     <>
-      <div class="max-w-2xl p-4 bg-base-100 rounded-2xl shadow sm:p-6 md:p-8" w>
+      <div
+        class="max-w-2xl p-4 bg-base-100 rounded-2xl shadow-2xl sm:p-6 md:p-8"
+        w
+      >
         <form class="space-y-6" action="#">
           <h5 class="text-3xl font-extrabold text-gray-900 dark:text-white">
             Login
@@ -82,7 +85,9 @@ export function Welcome() {
     <>
       <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl ">
         What is easier than an{" "}
-        <mark class="px-2 text-white bg-base-100 rounded-lg ">easyPortal</mark>{" "}
+        <span class="underline underline-offset-3 decoration-base-100">
+          easyPortal
+        </span>{" "}
         ?
       </h1>
     </>
