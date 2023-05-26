@@ -83,7 +83,7 @@ export function LoginCard() {
 export function Welcome() {
   return (
     <>
-      <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl ">
+      <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-base-100 md:text-5xl lg:text-6xl ">
         What is easier than an{" "}
         <span class="underline underline-offset-3 decoration-base-100">
           easyPortal
