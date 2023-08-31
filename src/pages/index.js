@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <div className="h-screen bg-gradient-to-t from-base-100 to-white via-primary">
         <center>
-          <br></br>
+          <br/>
           <Navbar />
         </center>
         <br></br><br></br>
